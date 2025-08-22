@@ -22,8 +22,8 @@ resource "azurerm_resource_group" "rg_pk" {
   name     = "rg-pk"
   location = "West Europe"
 }
-resource "azurerm_storage_account" "stgpk1" {
-  name                     = "storageaccountpk"
+resource "azurerm_storage_account" "stgpk13" {
+  name                     = "stgpk13"
   resource_group_name      = azurerm_resource_group.rg_pk.name
   location                 = azurerm_resource_group.rg_pk.location
   account_tier             = "Standard"
